@@ -16,7 +16,7 @@ public class Person {
     }
 
     public void getPension() {
-        if (this.age > 65) {
+        if (this.age > 60) {
             System.out.println("Your age is " + this.age + ", you need to go pension");
         } else {
             System.out.println("Your age is " + this.age + ", you not need to go pension");
